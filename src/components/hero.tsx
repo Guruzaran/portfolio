@@ -1,7 +1,8 @@
-"use client"
+// filepath: c:\Projects\Portfolio\gurusaranvr\src\components\hero.tsx
+"use client";
 
-import { motion } from "framer-motion"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -25,16 +26,16 @@ export default function Hero() {
       </motion.p>
 
       <div className="mt-6 flex space-x-6">
-        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
-          <Github className="w-6 h-6 hover:text-blue-500 transition" />
+        <a href="https://github.com/Guruzaran" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="w-6 h-6 hover:text-blue-500 transition" />
         </a>
         <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
-          <Linkedin className="w-6 h-6 hover:text-blue-500 transition" />
+          <FaLinkedin className="w-6 h-6 hover:text-blue-500 transition" />
         </a>
         <a href="mailto:your@email.com">
-          <Mail className="w-6 h-6 hover:text-blue-500 transition" />
+          <FaEnvelope className="w-6 h-6 hover:text-blue-500 transition" />
         </a>
       </div>
     </section>
-  )
+  );
 }
