@@ -32,7 +32,7 @@ export default function Hero() {
         <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="w-6 h-6 hover:text-blue-500 transition" />
         </a>
-        <a href="mailto:your@email.com">
+        <a href="mailto:guruzaran@gmail.com">
           <FaEnvelope className="w-6 h-6 hover:text-blue-500 transition" />
         </a>
       </div>
